@@ -18,7 +18,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="V41-Cf-KA5" customClass="BarButton" customModule="CustomTabBar" customModuleProvider="target">
-                                <rect key="frame" x="172" y="778" width="70" height="70"/>
+                                <rect key="frame" x="172" y="773" width="70" height="70"/>
                                 <color key="backgroundColor" systemColor="systemPinkColor"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="70" id="0lq-fe-vDJ"/>
@@ -35,7 +35,7 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemTealColor"/>
                         <constraints>
-                            <constraint firstItem="V41-Cf-KA5" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" constant="35" id="1QK-bc-GGY"/>
+                            <constraint firstItem="V41-Cf-KA5" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" constant="30" id="1QK-bc-GGY"/>
                             <constraint firstItem="V41-Cf-KA5" firstAttribute="width" secondItem="V41-Cf-KA5" secondAttribute="height" multiplier="1:1" id="ojA-5u-Rrg"/>
                             <constraint firstItem="V41-Cf-KA5" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="q5M-xX-WaU"/>
                         </constraints>
