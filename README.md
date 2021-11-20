@@ -83,3 +83,34 @@ extension CGFloat {
 }
 
 ```
+
+## Set TabBar Button 
+<img width="920" alt="Main_storyboard_—_Edited" src="https://user-images.githubusercontent.com/47273077/142715383-45f87b16-88e3-4f08-b4f2-c6f623811c29.png">
+
+<img width="884" alt="Main_storyboard_—_Edited" src="https://user-images.githubusercontent.com/47273077/142715416-e5c5b848-8162-4247-8f39-14a88335235a.png">
+
+```swift
+import UIKit
+
+@IBDesignable
+class BarButton: UIButton {
+    
+    @IBInspectable var cornerRadius: CGFloat = 15.0 {
+        didSet {
+            layer.cornerRadius = cornerRadius
+            clipsToBounds = true
+        }
+    }
+    
+    override init(frame: CGRect) {
+        super.init(frame: frame)
+    }
+    required init?(coder aDecoder: NSCoder) {
+        super.init(coder: aDecoder)
+    }
+    
+    override func prepareForInterfaceBuilder() {
+        super.prepareForInterfaceBuilder()
+    }
+}
+```
