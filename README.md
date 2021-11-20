@@ -114,3 +114,9 @@ class BarButton: UIButton {
     }
 }
 ```
+
+## Set TabBarItem Position(titlePositionAdjustment) 
+<img width="892" alt="Main_storyboard_—_Edited" src="https://user-images.githubusercontent.com/47273077/142715496-589452da-7123-46bb-b40a-5ed1351342dd.png">
+
+<img width="950" alt="Main_storyboard_—_Edited" src="https://user-images.githubusercontent.com/47273077/142715515-a8b0b7bc-8620-43bc-9eb4-25bd817b568d.png">
+
